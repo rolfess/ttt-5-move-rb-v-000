@@ -11,7 +11,7 @@ def input_to_index(user_input)
   puts "#{user_input} inside input_to_index"
 end
 
-def move(board, user_input, char="X")
+def move(board, user_input, char)
   puts "#{user_input} inside move"
   board[user_input]="#{char}"
 end
