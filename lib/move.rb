@@ -6,14 +6,14 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index(data_input)
-  Integer(data_input)
-  data_input= data_input - 1
-  puts "#{data_input} inside input_to_index"
+def input_to_index(user_input)
+  Integer (user_input)
+  index= user_input - 1
+  puts "#{user_input} inside input_to_index"
 end
 
-def move(board, data_input, char="X")
-  data_input=data_input.to_i - 1
-  puts "#{data_input} inside move"
-  board[data_input]="#{char}"
+def move(board, index, char="X")
+  #data_input=data_input.to_i - 1
+  puts "#{index} inside move"
+  board[index]="#{char}"
 end
