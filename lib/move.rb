@@ -8,7 +8,7 @@ end
 
 def input_to_index(user_input)
   Integer (user_input)
-  index= user_input - 1
+  user_input= user_input - 1
   puts "#{user_input} inside input_to_index"
 end
 
