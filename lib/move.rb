@@ -13,6 +13,6 @@ end
 
 def move(board, input, char="X")
   input=input.to_i - 1
-  puts "#{input} inside move"
+  #puts "#{input} inside move"
   board[input]="#{char}"
 end
