@@ -7,7 +7,7 @@ board=[" ", " ", " "," ", " ", " "," ", " ", " ",]
 char= "X"
 display_board(board)
 puts "Where would you like to go?"
-input=gets.strip
-input_to_index(input)
+data_input=gets.chop
+input_to_index(data_input)
 move(board, input, char)
 display_board(board)
