@@ -12,6 +12,7 @@ def input_to_index(data_input)
 end
 
 def move(board, data_input, char="X")
+  data_input=data_input.to_i - 1
   puts "#{data_input} inside move"
   board[data_input]="#{char}"
 end
