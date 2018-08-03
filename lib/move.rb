@@ -13,5 +13,5 @@ end
 
 def move(board, user_input, char)
   puts "#{user_input} inside move"
-  board[user_input]="#{char}"
+  board[user_input]=char
 end
