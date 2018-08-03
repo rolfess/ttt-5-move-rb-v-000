@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def input_to_index(data_input)
-  data_input=data_input.to_i - 1
+  data_input="data_input".to_i - 1
   puts "#{data_input} inside input_to_index"
 end
 
